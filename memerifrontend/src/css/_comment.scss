@@ -1,0 +1,32 @@
+.post-footer {
+    display: flex;
+    flex-direction: column;
+
+    .loader {
+        width: 47rem;
+        margin: 2rem;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+
+        .icon {
+            width: 5rem;
+            height: 5rem;
+            background: url('../svg/Loader.svg') no-repeat;
+            background-size: contain;
+            color: rgb(102, 102, 102);
+
+            @keyframes loaderAnimation {
+                0% {
+                    transform: rotate(0deg)
+                }
+
+                100% {
+                    transform: rotate(360deg)
+                }
+            }
+
+            animation: loaderAnimation 2s infinite linear;
+        }
+    }
+}
