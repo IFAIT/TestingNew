@@ -1,0 +1,288 @@
+.main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .main-container {
+        width: 120rem;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(196, 196, 196, 0.2);
+    }
+}
+
+.post-container {
+    margin: 4rem 0;
+    width: 70rem;
+    max-height: none;
+    display: grid;
+    grid-template-rows: 6.4rem auto auto;
+
+    border: 2px solid rgba(196, 196, 196, 0.6);
+
+    .post-title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        &>* {
+            margin-left: 1rem;
+            height: 100%;
+        }
+
+        .profile-pict-container {
+            width: 4.4rem;
+            height: 4.4rem;
+            background: black;
+            border-radius: 50%;
+
+            img {
+                border-radius: 50%;
+                object-fit: contain;
+            }
+        }
+
+        .post-detail {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            justify-content: center;
+
+            &>* {
+                &>* {
+                    display: inline;
+                }
+            }
+
+            div {
+                &:first-child {
+                    margin-top: -1rem;
+                }
+            }
+
+            h1 {
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            h3 {
+                color: rgba(0, 0, 0, 0.65);
+            }
+        }
+
+        .post-option-icon {
+            margin-top: -1.5rem;
+            margin-right: 2.7rem;
+            height: 1rem;
+            justify-self: end;
+            cursor: pointer;
+
+            .icon {
+                width: 3.4rem;
+                height: 1rem;
+                background: url('../svg/Group.svg') no-repeat;
+                background-size: contain;
+
+            }
+        }
+    }
+
+    .post-main-content {
+        display: flex;
+
+        .post-image {
+            width: 50rem;
+            min-height: 47rem;
+            background: lightblue;
+        }
+
+        .post-description {
+            flex: 1;
+            margin: 0 1rem;
+            margin-top: -.4rem;
+
+            h1 {
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            span {
+                font-size: 1.4rem;
+                color: rgba(0, 0, 0, 0.65);
+                cursor: context-menu;
+            }
+        }
+    }
+
+    .post-footer {
+        width: 100%;
+
+        .footer-container {
+            width: 50rem;
+            display: flex;
+            align-items: center;
+
+            &>* {
+                margin: 1rem 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: black;
+                border: 2px solid rgba(156, 156, 156, 0.5);
+                cursor: pointer;
+                font-size: 1.3rem;
+                height: 4rem;
+            }
+
+            .support-creator-btn {
+                width: 18.5rem;
+                margin-right: 2rem;
+                background: rgba(69, 220, 31, 1);
+                border-left: none;
+
+                &:hover {
+                    background: rgb(65, 214, 29);
+                }
+            }
+
+            .post-comment-section {
+                flex: 1;
+                background: white;
+
+                &:hover {
+                    background: rgb(240, 240, 240);
+                }
+            }
+        }
+    }
+}
+
+.post-main-content {
+    .post-rating {
+        margin-top: 3rem;
+        width: 100%;
+        height: 16rem;
+
+        .bmb-rating-container {
+            width: 100%;
+            height: 4rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            &>* {
+                width: 1.6rem;
+                height: 3.2rem;
+                background: url('../svg/EmptyBamboo.svg');
+                cursor: pointer;
+
+                &:hover {
+                    background: url('../svg/Bamboo.svg');
+                }
+            }
+        }
+
+        .bamboo-desc {
+            font-weight: bolder;
+            letter-spacing: 1px;
+            color: rgba(0, 0, 0, 0.65);
+        }
+
+        .shame-button {
+            position: relative;
+            width: 100%;
+            height: 4.6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            margin-top: 3rem;
+            cursor: pointer;
+            border: 2px solid rgba(142, 142, 142, 0.5);
+
+            h3 {
+                font-weight: lighter;
+                letter-spacing: 1px;
+                font-size: 1.8rem;
+            }
+
+            &__noactive {
+
+                &:hover {
+                    background: rgba(251, 86, 86, 1);
+
+                    h3 {
+                        color: white;
+                    }
+
+                    .shame-image {
+                        position: absolute;
+                        transform: translate(0, 0);
+                        right: 0;
+                        bottom: 0;
+                        width: 4.8rem;
+                        background: url('../images/shame.png') no-repeat;
+                        height: 100%;
+                        background-size: cover;
+
+                        @keyframes animations {
+                            0% {
+                                opacity: 0;
+                            }
+
+                            100% {
+                                opacity: 1;
+                            }
+                        }
+
+                        animation: animations .6s linear;
+                    }
+
+                }
+            }
+
+            &__active {
+                background: rgba(251, 86, 86, 1);
+
+                h3 {
+                    color: white;
+                }
+
+                .shame-image {
+                    position: absolute;
+                    transform: translate(0, 0);
+                    right: 0;
+                    bottom: 0;
+                    width: 4.8rem;
+                    background: url('../images/shame.png') no-repeat;
+                    height: 100%;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+
+.load-more {
+    width: 50vw;
+    max-width: 70rem;
+    min-width: 28rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    margin: 4rem;
+    cursor: pointer;
+}
