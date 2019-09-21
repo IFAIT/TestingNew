@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@apollo/react-hooks": "^3.1.0",
     "apollo-boost": "^0.4.4",
     "axios": "^0.19.0",
@@ -17,13 +18,24 @@
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "universal-cookie": "^4.0.2"
+=======
+    "axios": "^0.19.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1"
+>>>>>>> 5696d6003555631175b5a138468599ee30b0750e
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+<<<<<<< HEAD
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && GENERATE_SOURCEMAP=false  npm run build"
+=======
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && GENERATE_SOURCEMAP=false  npm run build && npm run chrome:webpack"
+>>>>>>> 5696d6003555631175b5a138468599ee30b0750e
   },
   "eslintConfig": {
     "extends": "react-app"
