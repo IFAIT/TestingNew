@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import cookie from "universal-cookie";
-import QueryMutation from "../../graphAPI/graph";
 import { connect } from "react-redux";
 import { LoginAction } from "../../actions/login";
 import { OpenLogin } from "../../actions/login";
@@ -16,7 +15,7 @@ class NavbarAccount extends Component {
 
   componentDidMount() {
     const user = cookies.get("__uses__s");
-    console.log(user);
+    // console.log(user);
   }
   Logout() {
     cookies.remove("__uses__s");

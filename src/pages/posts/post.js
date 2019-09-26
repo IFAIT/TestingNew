@@ -23,7 +23,7 @@ class Post extends Component {
       post: this.props.state,
       isLogin: this.props.state.isLogin
     });
-    console.log(this.state.post);
+    // console.log(this.state.post);
   }
 
   async componentDidMount() {

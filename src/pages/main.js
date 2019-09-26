@@ -18,15 +18,29 @@ class MainPage extends Component {
         isShamed: false,
         postImage:
           "https://firebasestorage.googleapis.com/v0/b/instagram-clone-3ee4d.appspot.com/o/UserPosts%2Fjarpani2%40gmail.com%2F5d5fea94b85fb62a18ccb697?alt=media&token=ef2717a6-348e-4389-9a32-b4e100992cf1"
+      },
+      {
+        username: "Irfany Fajar Afridho2",
+        postStat: {
+          pejuang: 1,
+          bamboo: 200
+        },
+        postTitle: "some title needed to be seen",
+        isShamed: false,
+        postImage:
+          "https://firebasestorage.googleapis.com/v0/b/instagram-clone-3ee4d.appspot.com/o/UserPosts%2Fjarpani2%40gmail.com%2F5d5fea94b85fb62a18ccb697?alt=media&token=ef2717a6-348e-4389-9a32-b4e100992cf1"
       }
     ];
     this.setState({
       Information: Information
     });
+    console.log(Information);
+    let normal = { ...Information, ...Information.postStat };
+    console.log(normal);
   }
   loadMoreMeme() {}
   componentDidMount() {
-    console.log(this.props.me);
+    // console.log(this.props.me);
   }
 
   render() {

@@ -7,7 +7,7 @@ const me = (state = null, action) => {
   }
 };
 
-const showLogin = (state = false, action) => {
+const showLogin = (state = true, action) => {
   switch (action.type) {
     case "OPEN":
       return true;
