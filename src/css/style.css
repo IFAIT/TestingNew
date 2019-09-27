@@ -1,14 +1,15 @@
+/* asdas */
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
 .navbar-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: black;
   height: 8rem;
 }
@@ -21,8 +22,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar-wrapper .navbar-container .web-icon-container {
@@ -49,11 +50,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .navbar-wrapper .navbar-container .navbar-links > * {
@@ -74,8 +75,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   font-size: 1.4rem;
 }
@@ -87,18 +88,18 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #48b2ff;
   margin-right: 18%;
   cursor: pointer;
 }
 
 .navbar-wrapper .navbar-container .navbar-account > * > * {
-  margin-top: -.4rem;
+  margin-top: -0.4rem;
   text-transform: uppercase;
 }
 
@@ -110,14 +111,14 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .main-wrapper .main-container {
@@ -128,11 +129,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: rgba(196, 196, 196, 0.2);
 }
 
@@ -143,7 +144,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 6.4rem auto auto;
-      grid-template-rows: 6.4rem auto auto;
+  grid-template-rows: 6.4rem auto auto;
   border: 2px solid rgba(196, 196, 196, 0.6);
 }
 
@@ -153,8 +154,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .post-container .post-title > * {
@@ -172,7 +173,7 @@
 .post-container .post-title .profile-pict-container img {
   border-radius: 50%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .post-container .post-title .post-detail {
@@ -181,14 +182,14 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .post-container .post-title .post-detail > * > * {
@@ -216,7 +217,7 @@
   margin-right: 2.7rem;
   height: 1rem;
   -ms-grid-column-align: end;
-      justify-self: end;
+  justify-self: end;
   cursor: pointer;
 }
 
@@ -241,10 +242,10 @@
 
 .post-container .post-main-content .post-description {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin: 0 1rem;
-  margin-top: -.4rem;
+  margin-top: -0.4rem;
 }
 
 .post-container .post-main-content .post-description h1 {
@@ -271,8 +272,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .post-container .post-footer .footer-container > * {
@@ -281,11 +282,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: black;
   border: 2px solid rgba(156, 156, 156, 0.5);
   cursor: pointer;
@@ -306,8 +307,8 @@
 
 .post-container .post-footer .footer-container .post-comment-section {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background: white;
 }
 
@@ -328,10 +329,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .post-main-content .post-rating .bmb-rating-container > * {
@@ -359,11 +360,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: white;
   margin-top: 3rem;
   cursor: pointer;
@@ -387,15 +388,15 @@
 .post-main-content .post-rating .shame-button__noactive:hover .shame-image {
   position: absolute;
   -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
+  transform: translate(0, 0);
   right: 0;
   bottom: 0;
   width: 4.8rem;
   background: url("../images/shame.png") no-repeat;
   height: 100%;
   background-size: cover;
-  -webkit-animation: animations .6s linear;
-          animation: animations .6s linear;
+  -webkit-animation: animations 0.6s linear;
+  animation: animations 0.6s linear;
 }
 
 @-webkit-keyframes animations {
@@ -427,7 +428,7 @@
 .post-main-content .post-rating .shame-button__active .shame-image {
   position: absolute;
   -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
+  transform: translate(0, 0);
   right: 0;
   bottom: 0;
   width: 4.8rem;
@@ -445,11 +446,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: grey;
   margin: 4rem;
   cursor: pointer;
@@ -469,11 +470,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .login-wrapper .close-button {
@@ -497,8 +498,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .post-footer .loader {
@@ -509,8 +510,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .post-footer .loader .icon {
@@ -520,28 +521,28 @@
   background-size: contain;
   color: #666666;
   -webkit-animation: loaderAnimation 2s infinite linear;
-          animation: loaderAnimation 2s infinite linear;
+  animation: loaderAnimation 2s infinite linear;
 }
 
 @-webkit-keyframes loaderAnimation {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes loaderAnimation {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -549,12 +550,12 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 10px;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
 }
 
 html img {
